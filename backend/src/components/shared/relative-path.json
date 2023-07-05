@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_relative_paths",
+  "info": {
+    "displayName": "Relative path"
+  },
+  "options": {},
+  "attributes": {
+    "path": {
+      "type": "string",
+      "regex": "/^[a-z\\d]+[a-z0-9\\/\\-_]*[a-z\\d]+$/",
+      "required": true,
+      "unique": true
+    }
+  }
+}
